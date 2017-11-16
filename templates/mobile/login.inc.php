@@ -37,13 +37,13 @@ if (($currentSession['user']['userid'] == $settings->get('nonauthenticated_useri
 		<input type="hidden" name="data[performredirect]" value="<?php echo $data['performredirect']; ?>">
 	<?php } ?> 
 	<fieldset>
-    	<label for="loginform[username]"><div align="center"><strong>Gebruikersnaam</strong></div></label>
+    	<label for="loginform[username]"><div align="center"><strong>Username</strong></div></label>
 		<div align="center"><input type="text" style="width:66%; text-align:center"; name="loginform[username]" value="<?php echo htmlspecialchars($loginform['username']); ?>"></div>
 <br><!-- Return -->
-        <label for="loginform[password]"><div align="center"><strong>Wachtwoord</strong></div></label>
+        <label for="loginform[password]"><div align="center"><strong>Password</strong></div></label>
 		<div align="center"><input type="password" style="width:66%; text-align:center"; name="loginform[password]" value=""></div>
 
-    	<div align="center"><input class="Button" type="submit" name="loginform[submitlogin]" value="Inloggen" data-inline="true" data-theme="b"></div>
+    	<div align="center"><input class="Button" type="submit" name="loginform[submitlogin]" value="Login" data-inline="true" data-theme="b"></div>
 	</fieldset>
 </form>
 <?php
