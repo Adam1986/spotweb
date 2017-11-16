@@ -1,3 +1,3 @@
-Programma gestart
+program launched
 
-<?php echo $nzbhandling['local_dir']; ?>  gestart voor <?php echo $spot['title']; ?>.
+<?php echo $nzbhandling['local_dir']; ?>  initiated for <?php echo $spot['title']; ?>.
